@@ -6,4 +6,4 @@ WhenWallStreetWorks (WWW) uses 1000 randomly chosen stocks from the 6 biggest st
 This repository contains an interactive Plotly dashboard to visualize and gain insights of the various TALIB overlap indicators.
 You can view the interactive dashboard by clicking the link below:
 
-[View Interactive Dashboard](https://SebastianDeubler.github.io/WhenWallStreetWorks/2024_05_26_IndicatorAnalysis_OverlapStudies.html)
+[View Interactive Dashboard](https://SebastianDeubler.github.io/WhenWallStreetWorks/2024_05_27_IndicatorAnalysis_OverlapStudies.html)
