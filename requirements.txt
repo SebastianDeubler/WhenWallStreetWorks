@@ -6,4 +6,4 @@ pandas==2.2.2  # Data manipulation and analysis
 plotly==5.22.0  # Plotly for data visualization
 pymongo==4.8.0   # pymongo to connect to the mongo database
 scikit-learn==1.5.0  # Machine learning library (for MinMaxScaler)
-gunicorn
+gunicorn==23.0.0  # WSGI HTTP server for deploying the app
