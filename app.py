@@ -260,13 +260,9 @@ def update(x_axis_selected, y_axis_selected, size_select, color_select, opacity_
         active_wma = not active_wma
     
     filtered_df = df_stats_vis[
-        #((df_stats_vis['Indicator'] == "DEMA") & active_dema) |
         ((df_stats_vis['Indicator'] == "EMA") & active_ema)  |
-        #((df_stats_vis['Indicator'] == "KAMA") & active_kama) |
         ((df_stats_vis['Indicator'] == "MA") & active_ma) |
         ((df_stats_vis['Indicator'] == "SMA") & active_sma) |
-        #((df_stats_vis['Indicator'] == "TEMA") & active_tema) |
-        #((df_stats_vis['Indicator'] == "TRIMA") & active_trima) |
         ((df_stats_vis['Indicator'] == "WMA") & active_wma)
     ]
     
