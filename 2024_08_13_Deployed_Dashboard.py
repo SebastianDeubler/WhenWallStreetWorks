@@ -299,4 +299,5 @@ def update(x_axis_selected, y_axis_selected, size_select, color_select, opacity_
     ))
     return fig, active_dema, active_ema, active_kama, active_ma, active_sma, active_tema, active_trima, active_wma
 
-app.run_server(jupyter_mode="external", port=8050)
+if __name__ == '__main__':
+    app.run()
