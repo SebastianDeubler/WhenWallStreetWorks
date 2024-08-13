@@ -1,8 +1,9 @@
-dash
-dash-bootstrap-components
-numpy
-pandas
-plotly
-pymongo
-scikit-learn
-gunicorn
+# Python >=3.9.6 was used to developed the app
+dash==2.17.0  # Dash web framework (also covers dash_core_components and dash_html_components)
+dash-bootstrap-components==1.6.0  # Dash components using Bootstrap
+numpy==1.23.5  # Numerical operations
+pandas==2.2.2  # Data manipulation and analysis
+plotly==5.22.0  # Plotly for data visualization
+pymongo==4.8.0  # To read data from MongoDB
+scikit-learn==1.5.0  # Machine learning library (for MinMaxScaler)
+gunicorn==23.0.0
