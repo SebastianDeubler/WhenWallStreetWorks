@@ -6,4 +6,4 @@ pandas==2.2.2  # Data manipulation and analysis
 plotly==5.22.0  # Plotly for data visualization
 pymongo==4.8.0  # To read data from MongoDB
 scikit-learn==1.5.0  # Machine learning library (for MinMaxScaler)
-gunicorn==23.0.0
+#gunicorn==23.0.0
