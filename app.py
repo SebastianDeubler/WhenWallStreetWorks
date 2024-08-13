@@ -21,6 +21,7 @@ df_stats_vis = df_loaded.drop('_id', axis=1)
 df_stats_vis.index = df_loaded.set_index(['Indicator', 'Timeperiod']).index
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 SIDEBAR_STYLE = {
     "position": "fixed",
@@ -295,5 +296,5 @@ def update(x_axis_selected, y_axis_selected, size_select, color_select, opacity_
     ))
     return fig, active_dema, active_ema, active_kama, active_ma, active_sma, active_tema, active_trima, active_wma
 
-if __name__ == '__app__':
-    app.run()
+if __name__ == "__main__":
+    app.run_server(debug=False)
