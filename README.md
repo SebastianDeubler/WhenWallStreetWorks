@@ -6,4 +6,4 @@ WhenWallStreetWorks (WWW) uses 1000 randomly chosen stocks from the biggest stoc
 This repository contains an interactive Plotly dashboard to visualize and gain insights of the various Technical Analysis Library (TALIB) overlap indicators (e.g. SMA, EMA, ...).
 You can view the interactive dashboard by clicking the link below:
 
-#[View Overlap Indicator Dashboard]
+[View Overlap Indicator Dashboard](https://whenwallstreetworks.onrender.com/)
