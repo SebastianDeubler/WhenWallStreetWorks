@@ -243,20 +243,12 @@ def update(x_axis_selected, y_axis_selected, size_select, color_select, opacity_
 
     button_id = ctx.triggered[0]['prop_id'].split('.')[0]
 
-    if button_id == "button_dema":
-        active_dema = not active_dema
     if button_id == "button_ema":
-        active_ema = not active_ema
-    if button_id == "button_kama":
-        active_kama = not active_kama
+        active_ema = not active_emaa
     if button_id == "button_ma":
         active_ma = not active_ma
     if button_id == "button_sma":
         active_sma = not active_sma
-    if button_id == "button_tema":
-        active_tema = not active_tema
-    if button_id == "button_trima":
-        active_trima = not active_trima
     if button_id == "button_wma":
         active_wma = not active_wma
     
